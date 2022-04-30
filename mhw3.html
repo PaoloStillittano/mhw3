@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i|Open+Sans:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="mhw3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="apiKey.js" defer="true"></script>
+        <script src="OAuth.js" defer="true"></script>
+    </head>
+    <body>
+        <header>
+            <h1>
+                <strong>|CrossFit: The Path|</strong></br>
+                <a class="button">Allenati con noi!</a>
+            </h1>
+           
+          <nav>
+            <div id="links">
+                <a>HOME</a>
+                <a>SOCIAL</a>
+                <a>CORSI</a>
+                <a>ISCRIVITI</a>
+            </div>
+
+            <div id="menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+          </nav>
+        </header>
+
+        <section>
+            <div id="main">
+                <h1>I nostri corsi principali</h1>
+                <p>Dal Lunedì al Sabato
+                    Dalle 9:00 Alle 19:00 
+                </p></br>
+                <p>Aperti anche la Domenica!
+                    Dalle 9:00 Alle 13:00
+                </p>
+            </div>
+            
+            <div id="details">
+                <div> 
+                  <h1>|Sala Pesi|</h1>
+                 <img src="http://www.7sportingclub.com/it/wp-content/gallery/Sala-pesi/sala-pesi-5-1.jpg">
+                    <p>Per coloro che vogliono tenersi in forma e fare un po' di attività fisica, la sala pesi è quello che fa al caso vostro</p>
+                </div>
+
+                <div>
+                    <h1>|Sala CrossFit|</h1>
+                    <img src="http://www.555crossfit.com/wp-content/uploads/2015/02/13C9365.jpg">
+                    <p>Allenamento con circuiti bilanciati in modo da coinvolgere il corpo nella sua interezza</p>
+                </div>
+            </div>
+
+            <div class="RestApi">
+                <div id="ShowApi">
+                   | Se sei alle prime armi e non sai ancora i nomi degli attrezzi |</br>
+                   | prova a riconoscerne alcuni premento il pulsante |</br>
+                    <button id="Equipment">Cliccami!</button>
+                    <div id="view"></div>
+                </div>
+
+                <form id="OAuth">
+                    | Cerca la tua canzone preferita |</br>
+                    | Riproducila durante i tuoi allenamenti! |</br>
+                    <input type="text" id="song" />
+                    <input type="submit" value="cerca">
+                    <div id="OAuth-view"></div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <h1>Corso di Web Programming 2022</h1>
+            <p>Paolo Stillittano - MATRICOLA: 1000001637</p>
+        </footer>
+    </body>
+</html>
